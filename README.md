@@ -44,8 +44,8 @@ expense_tracker
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/expense-tracker-api.git
-cd expense-tracker-api
+git clone https://github.com/kavithasrik17/Expense-Tracker
+cd Expense-Tracker
 ```
 
 ### 2. Install Dependencies
