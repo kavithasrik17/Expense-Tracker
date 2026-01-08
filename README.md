@@ -94,38 +94,10 @@ DELETE /delete/{id}
 Category-wise Expense Summary (All Dates)
 GET /summary/category
 
-
-Response:
-
-[
-  { "category": "Snacks", "total_expense": 250 },
-  { "category": "Flowers", "total_expense": 200 }
-]
-
 ### Date-wise Expense Summary
 GET /summary/date/{date}
 
-
-Example:
-
-GET /summary/date/2025-01-10
-
-PDF Report (Date-wise with Category)
+### PDF Report (Date-wise with Category)
 GET /report/pdf?date=2025-01-10
 
 
-The PDF contains:
-
-Date
-
-Category
-
-Total expense per category
-
-Grand total for the selected date
-
-
-
-Daily total:
-
-450
